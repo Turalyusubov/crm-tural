@@ -1,0 +1,11 @@
+@mixin primary-btn {
+    background-color: #6643c2;
+    color: white;
+    padding: 0 2rem;
+    width: fit-content;
+
+    &:hover {
+        background-color: #422b7c !important;
+        color: white !important;
+    }
+}

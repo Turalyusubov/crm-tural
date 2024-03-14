@@ -1,0 +1,49 @@
+@import '@/styles/globalmixins';
+
+.forgot_page {
+    background: linear-gradient(293deg, #6643c2 50%, hsla(312.56, 44.84%, 50.78%, 0.94) 95%), conic-gradient(from 27deg at 7% 15%, #ffa48e 6%, #ffa54a 13%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .step_wrapper {
+        // height: 20vh;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login_head {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .forgot_wrapper {
+        background: white;
+        width: 80vh;
+        border-radius: 1rem;
+        padding: 2rem;
+        box-shadow: 0px 5px 10px rgb(82, 82, 82);
+    }
+
+    .login_submit_btn_wrapper {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        // flex-direction: row;
+
+        .forgot_submit_btn {
+            padding: 0 3rem;
+            @include primary-btn
+        }
+
+        .login_forgot_password {
+            margin-top: 1rem;
+            text-align: center;
+        }
+    }
+
+}

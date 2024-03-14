@@ -1,0 +1,12 @@
+@import '@/styles/globalmixins';
+
+.primary_btn {
+    @include primary-btn;
+    margin-top: 1rem;
+
+}
+
+.report_rich_text_editor {
+    height: 14rem;
+    padding-bottom: 2rem;
+}

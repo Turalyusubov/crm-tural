@@ -1,0 +1,69 @@
+@import '@/styles/variables';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+}
+
+.userName {
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.demo_logo_vertical {
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 2rem;
+    }
+}
+
+.header_user {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.reset_password {
+    background: $main-purple;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: .3rem;
+    cursor: pointer;
+
+    &:hover {
+        background: $main-purple;
+    }
+}
+
+.left_header {
+    display: flex;
+    gap: .4rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.theme_btn {
+    color: white;
+    background: $main-purple;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: .3rem .4rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .left_header {
+        font-size: 1.1rem;
+    }
+
+    .userName {
+        font-size: .8rem;
+    }
+}

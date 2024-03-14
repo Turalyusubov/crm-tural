@@ -1,0 +1,9 @@
+.create_btn {
+    background: green;
+    color: white;
+
+    &:hover {
+        color: white !important;
+        border-color: green !important;
+    }
+}

@@ -1,0 +1,24 @@
+@import './reset';
+@import './fonts';
+@import './globalmixins';
+@import './variables';
+
+:where(.css-dev-only-do-not-override-1jxkhg).ant-menu-light.ant-menu-root.ant-menu-inline {
+    border-inline-end: none !important;
+}
+
+.ant-table {
+    width: 100%;
+    overflow-y: auto;
+}
+
+.ant-menu-item {
+    width: 100%;
+    overflow: hidden !important;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
